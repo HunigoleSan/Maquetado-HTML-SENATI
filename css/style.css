@@ -79,9 +79,17 @@ img{
 .cuadro{
     padding: 1rem;
     background: var(--azul-oscuro-fuerte);
-    width: 200px;
+    width: 220px;
     height: 150px;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.cuadro > p{
+    color: white;
+    font-size: 2rem;
+
 }
 .cuadrillo{
     width: 100%;
